@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Xavier\\Desktop\\C# Work\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {}
+    "C:\\Users\\Xavier\\Desktop\\C# Work\\C# pratice\\Badge-maker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Xavier\\Desktop\\C# Work\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {
+    "C:\\Users\\Xavier\\Desktop\\C# Work\\C# pratice\\Badge-maker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xavier\\Desktop\\C# Work\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+        "projectUniqueName": "C:\\Users\\Xavier\\Desktop\\C# Work\\C# pratice\\Badge-maker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
         "projectName": "CatWorx.BadgeMaker",
-        "projectPath": "C:\\Users\\Xavier\\Desktop\\C# Work\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
+        "projectPath": "C:\\Users\\Xavier\\Desktop\\C# Work\\C# pratice\\Badge-maker\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
         "packagesPath": "C:\\Users\\Xavier\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xavier\\Desktop\\C# Work\\CatWorx.BadgeMaker\\obj\\",
+        "outputPath": "C:\\Users\\Xavier\\Desktop\\C# Work\\C# pratice\\Badge-maker\\CatWorx.BadgeMaker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Xavier\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
